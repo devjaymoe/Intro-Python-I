@@ -27,7 +27,7 @@ print(foo_text)
 
 # YOUR CODE HERE
 
-with open('src/bar.txt', 'w') as bar:
+with open('src/bar.txt', 'x') as bar:
     bar.writelines(['Line 1', '\nLine 2', '\nLine 3'])
 
 with open('src/bar.txt') as bar:
